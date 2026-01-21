@@ -1,0 +1,285 @@
+{
+    "html": [
+        {
+            "q": "O que significa HTML?",
+            "a": "HyperText Markup Language",
+            "options": [
+                "HyperText Make Level",
+                "HyperText Markup Language",
+                "Home Tool Markup Language",
+                "Hyperlink Transfer Language"
+            ],
+            "tip": "É uma linguagem de marcação."
+        },
+        {
+            "q": "Qual tag representa um parágrafo?",
+            "a": "<p>",
+            "options": ["<p>", "<para>", "<text>", "<paragraph>"],
+            "tip": "Usado para blocos de texto."
+        },
+        {
+            "q": "Qual tag cria um link?",
+            "a": "<a>",
+            "options": ["<link>", "<a>", "<href>", "<url>"],
+            "tip": "É chamada de âncora."
+        },
+        {
+            "q": "Qual atributo contém o destino do link?",
+            "a": "href",
+            "options": ["source", "href", "target", "link"],
+            "tip": "H de hyperlink."
+        },
+        {
+            "q": "Qual tag é o maior título?",
+            "a": "<h1>",
+            "options": ["<h6>", "<h3>", "<h1>", "<title>"],
+            "tip": "h1 a h6."
+        },
+        {
+            "q": "Como inserir imagem?",
+            "a": "<img>",
+            "options": ["<image>", "<img>", "<picture>", "<src>"],
+            "tip": "Tag auto-fechada."
+        },
+        {
+            "q": "Qual atributo descreve a imagem?",
+            "a": "alt",
+            "options": ["title", "desc", "alt", "label"],
+            "tip": "Usado para acessibilidade."
+        },
+        {
+            "q": "Elemento genérico de agrupamento?",
+            "a": "<div>",
+            "options": ["<div>", "<section>", "<group>", "<container>"],
+            "tip": "Não tem semântica específica."
+        },
+        {
+            "q": "Elemento que indica conteúdo principal?",
+            "a": "<main>",
+            "options": ["<main>", "<article>", "<section>", "<body>"],
+            "tip": "Somente um por página é recomendado."
+        },
+        {
+            "q": "Onde ficam meta tags?",
+            "a": "<head>",
+            "options": ["<head>", "<footer>", "<body>", "<meta>"],
+            "tip": "Não aparecem na área visível."
+        }
+    ],
+    "css": [
+        {
+            "q": "O que significa CSS?",
+            "a": "Cascading Style Sheets",
+            "options": [
+                "Cascading Style Sheets",
+                "Computer Style System",
+                "Custom Style Syntax",
+                "Central Style Sheet"
+            ],
+            "tip": "Folhas de estilo em cascata."
+        },
+        {
+            "q": "Propriedade para cor do texto?",
+            "a": "color",
+            "options": ["text-color", "color", "font-color", "paint"],
+            "tip": "Simples: color."
+        },
+        {
+            "q": "Propriedade para cor de fundo?",
+            "a": "background-color",
+            "options": ["background", "bg-color", "background-color", "fill"],
+            "tip": "background-..."
+        },
+        {
+            "q": "Como criar sombra em caixa?",
+            "a": "box-shadow",
+            "options": ["box-shadow", "shadow-box", "outer-shadow", "box-glow"],
+            "tip": "Muito usada em cards."
+        },
+        {
+            "q": "Unidade relativa à largura da viewport?",
+            "a": "vw",
+            "options": ["px", "em", "vw", "rem"],
+            "tip": "Viewport width."
+        },
+        {
+            "q": "Propriedade para tamanho da fonte?",
+            "a": "font-size",
+            "options": ["font-size", "text-size", "size", "font"],
+            "tip": "font-size: 16px;"
+        },
+        {
+            "q": "Propriedade para espaçamento interno?",
+            "a": "padding",
+            "options": ["margin", "padding", "gap", "space"],
+            "tip": "Dentro do elemento."
+        },
+        {
+            "q": "Propriedade para espaçamento externo?",
+            "a": "margin",
+            "options": ["padding", "margin", "gap", "outer"],
+            "tip": "Fora do elemento."
+        },
+        {
+            "q": "Como esconder elemento completamente?",
+            "a": "display:none",
+            "options": [
+                "visibility:hidden",
+                "display:none",
+                "opacity:0",
+                "hidden:true"
+            ],
+            "tip": "Removido do fluxo."
+        },
+        {
+            "q": "Como alinhar texto ao centro?",
+            "a": "text-align:center",
+            "options": [
+                "align:center",
+                "text-center",
+                "text-align:center",
+                "center-text"
+            ],
+            "tip": "text-align é a chave."
+        }
+    ],
+    "js": [
+        {
+            "q": "Como imprimir no console?",
+            "a": "console.log()",
+            "options": ["print()", "console.log()", "log()", "echo()"],
+            "tip": "Muito usado para debug."
+        },
+        {
+            "q": "Qual palavra declara variável reatribuível?",
+            "a": "let",
+            "options": ["const", "let", "var", "dim"],
+            "tip": "let ou var."
+        },
+        {
+            "q": "Como declarar função tradicional?",
+            "a": "function",
+            "options": ["fn", "function", "def", "func"],
+            "tip": "function nome(){}"
+        },
+        {
+            "q": "Como converter string para número?",
+            "a": "Number()",
+            "options": ["Number()", "Int()", "parseNum()", "toNumber()"],
+            "tip": "Number('5') -> 5"
+        },
+        {
+            "q": "O que significa NaN?",
+            "a": "Not a Number",
+            "options": [
+                "Not a Number",
+                "Null and Nothing",
+                "No a Number",
+                "Not a Name"
+            ],
+            "tip": "Resultado de operações inválidas."
+        },
+        {
+            "q": "Como criar array vazio?",
+            "a": "[]",
+            "options": ["[]", "{}", "()", "new Array()"],
+            "tip": "[] representa array literal."
+        },
+        {
+            "q": "Qual operador compara valor e tipo?",
+            "a": "===",
+            "options": ["==", "===", "=", "!=="],
+            "tip": "Uso recomendado: ==="
+        },
+        {
+            "q": "Como obter o tamanho de um array?",
+            "a": "length",
+            "options": ["size", "length", "count", "len"],
+            "tip": "arr.length"
+        },
+        {
+            "q": "Como criar número aleatório (0-1)?",
+            "a": "Math.random()",
+            "options": ["random()", "Math.random()", "rand()", "Math.rand()"],
+            "tip": "Math.random()"
+        },
+        {
+            "q": "Como exibir alerta na página?",
+            "a": "alert()",
+            "options": ["prompt()", "console.log()", "alert()", "notify()"],
+            "tip": "alert('Olá')"
+        }
+    ],
+    "react": [
+        {
+            "q": "React é biblioteca ou framework?",
+            "a": "biblioteca",
+            "options": ["framework", "biblioteca", "plataforma", "linguagem"],
+            "tip": "Criado pelo Facebook."
+        },
+        {
+            "q": "Como chamar DOM virtual?",
+            "a": "Virtual DOM",
+            "options": ["Shadow DOM", "Virtual DOM", "Real DOM", "React DOM"],
+            "tip": "Virtual DOM é a técnica."
+        },
+        {
+            "q": "Hook para estado local?",
+            "a": "useState",
+            "options": ["useState", "useEffect", "useRef", "useContext"],
+            "tip": "useState retorna [valor, setValor]"
+        },
+        {
+            "q": "Hook para efeitos colaterais?",
+            "a": "useEffect",
+            "options": ["useEffect", "useState", "useMemo", "useCallback"],
+            "tip": "useEffect(() => {...}, [])"
+        },
+        {
+            "q": "Extensão comum para JSX?",
+            "a": ".jsx",
+            "options": [".js", ".jsx", ".react", ".rjs"],
+            "tip": ".jsx ou .js dependendo do projeto."
+        },
+        {
+            "q": "Como importar React (exemplo)?",
+            "a": "import React from 'react'",
+            "options": [
+                "require('react')",
+                "import React from 'react'",
+                "use React",
+                "React.import()"
+            ],
+            "tip": "Import padrão."
+        },
+        {
+            "q": "Hook para memorizar valor?",
+            "a": "useMemo",
+            "options": ["useMemo", "useState", "useRef", "useCallback"],
+            "tip": "useMemo evita recomputações."
+        },
+        {
+            "q": "Como criar componente funcional?",
+            "a": "function Nome()",
+            "options": [
+                "const Nome = () => {}",
+                "function Nome()",
+                "class Nome extends React.Component",
+                "def Nome()"
+            ],
+            "tip": "Função retorna JSX."
+        },
+        {
+            "q": "Como mapear lista em JSX?",
+            "a": "map()",
+            "options": ["forEach()", "map()", "filter()", "reduce()"],
+            "tip": "map retorna novo array."
+        },
+        {
+            "q": "Comando que inicia app em dev?",
+            "a": "npm start",
+            "options": ["npm start", "npm build", "npm run", "node server"],
+            "tip": "npm start rodará o dev server."
+        }
+    ]
+}

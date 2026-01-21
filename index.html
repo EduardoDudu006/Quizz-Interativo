@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Super Quiz Interativo</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Tela de Boas Vindas -->
+    <div id="welcome-screen" class="screen">
+        <h1 class="title">Super Quiz Interativo</h1>
+        <h2>Sobre: HTML, CSS, JS, React e Bootstrap.</h2>
+
+        <label class="label">Digite seu nome:</label>
+        <input type="text" id="username" class="input-text" placeholder="Seu nome..." />
+
+        <label class="label">Selecione um tema:</label>
+        <select id="theme-select" class="input-text">
+            <option value="all">Misturado</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+            <option value="react">React</option>
+        </select>
+
+        <label class="label">Quantidade de perguntas (5 a 40):</label>
+        <input type="number" id="question-amount" class="input-text" min="5" max="40" value="10" />
+
+        <button id="start-btn" class="btn">Iniciar Quiz</button>
+    </div>
+
+    <!-- Tela do Quiz -->
+    <div id="quiz-screen" class="screen hidden">
+        <h2 id="question-title" class="question-title"></h2>
+
+        <div id="options" class="options-box"></div>
+
+        <button id="tip-btn" class="btn small">Mostrar Dica</button>
+        <div id="tip-box" class="tip hidden"></div>
+
+        <button id="next-btn" class="btn">Próxima</button>
+    </div>
+
+    <!-- Tela Final -->
+    <div id="finish-screen" class="screen hidden">
+        <h1 class="title">Resultado Final</h1>
+
+        <h2>Parabéns, <span id="user-name-display"></span>!</h2>
+
+        <div id="result-text"></div>
+
+        <canvas id="fireworks" class="hidden"></canvas>
+
+        <h2>Gabarito:</h2>
+        <div id="summary"></div>
+
+        <button id="restart-btn" class="btn">Jogar Novamente</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
